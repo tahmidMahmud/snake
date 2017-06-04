@@ -1,0 +1,25 @@
+<style type="text/css">
+	#board {
+    border: 1px solid black;
+	}
+	
+	#snake {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: 1;
+    background:green;
+    width:10px;
+    height:10px;
+	}
+
+	#goal {
+    position: absolute;
+    left: 110px;
+    top: 100px;
+    z-index: 1;
+    background:gold;
+    width:10px;
+    height:10px;
+	}
+</style>
